@@ -90,6 +90,13 @@ For production::
 *note: We install production requirements this way because many Platforms as a
 Services expect a requirements.txt file in the root of projects.*
 
+Screenshots
+===========
+
+## Screenshots
+
+<img src="https://github.com/abelthf/pasoft/tree/master/pasoft/static/screenshots.png">
+
 Acknowledgements
 ================
 
@@ -97,3 +104,5 @@ Acknowledgements
     - All of the contributors_ to this project.
 
 .. _contributors: https://github.com/twoscoops/django-twoscoops-project/blob/master/CONTRIBUTORS.txt
+
+
