@@ -24,7 +24,7 @@ Virtualenv Only
 First, make sure you are using virtualenv (http://www.virtualenv.org). Once
 that's installed, create your virtualenv::
 
-    $ virtualenv --distribute icecream
+    $ virtualenv --distribute pasoft
 
 You will also need to ensure that the virtualenv has the project directory
 added to the path. Adding the project directory will allow `django-admin.py` to
@@ -37,9 +37,9 @@ In Linux and Mac OSX, you can install virtualenvwrapper (http://virtualenvwrappe
 which will take care of managing your virtual environments and adding the
 project path to the `site-directory` for you::
 
-    $ mkdir icecream
-    $ mkvirtualenv -a icecream icecream-dev
-    $ cd icecream && add2virtualenv `pwd`
+    $ mkdir pasoft
+    $ mkvirtualenv -a pasoft pasoft-dev
+    $ cd pasoft && add2virtualenv `pwd`
 
 Windows
 ----------
