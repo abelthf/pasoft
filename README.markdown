@@ -94,8 +94,7 @@ Services expect a requirements.txt file in the root of projects.*
 
 ## Screenshots
 
-
-<img src="https://github.com/abelthf/pasoft/tree/master/pasoft/static/screenshots.png">
+<img src="https://github.com/abelthf/pasoft/tree/master/pasoft/static/screenshot-github.jpg">
 
 # Acknowledgements
 
