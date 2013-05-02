@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{% block title %}pasoft{% endblock title %}</title>
+    <title>{% block title %}PASoft{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,12 +38,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
           </a>
           <a class="brand" href="#">pasoft</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">Acerca de</a></li>
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/productos">Productos</a></li>
+              <li><a href="/about">Acerca de</a></li>
               <li><a href="#contact">Contactar</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -54,6 +56,8 @@
     <div class="container">
 
       <h1>{% block page_title %}Plantilla base de ejemplo{% endblock page_title %}</h1>
+      <p>Usar esta plantilla como un documento para inciar el proyecto de forma rápida.</p>
+        <p>(usa Bootstrap front-end framework).</p>
 
       {% block content %}
         <p>Usar esta plantilla como un documento para inciar el proyecto de forma rápida.</p>
